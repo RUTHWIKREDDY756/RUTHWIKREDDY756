@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" width="100%" height="100%">
+  <title>Terminal Information</title>
+  <rect width="800" height="340" fill="#0D1117" rx="12" stroke="#30363D" stroke-width="1"/>
+  
+  <!-- Mac Window Controls -->
+  <circle cx="24" cy="24" r="6" fill="#FF5F56" />
+  <circle cx="44" cy="24" r="6" fill="#FFBD2E" />
+  <circle cx="64" cy="24" r="6" fill="#27C93F" />
+  
+  <g font-family="Menlo, Monaco, Consolas, 'Courier New', monospace" font-size="15" fill="#C9D1D9">
+    <!-- Command 1 -->
+    <text x="30" y="70">
+      <tspan fill="#0052FF" font-weight="bold">❯</tspan> cat about_ruthwik.txt
+    </text>
+    <text x="30" y="100" fill="#8B949E">B.Tech ECE at PES University. Specializing in hardware security,</text>
+    <text x="30" y="125" fill="#8B949E">lightweight cryptography, and the protection of IoT devices.</text>
+    <text x="30" y="150" fill="#8B949E">Experienced in building UVM-layered testbenches and SoC RTL design.</text>
+    
+    <!-- Command 2 -->
+    <text x="30" y="200">
+      <tspan fill="#0052FF" font-weight="bold">❯</tspan> ls ./tech_stack/
+    </text>
+    
+    <!-- Stack Output -->
+    <text x="30" y="235" font-weight="bold" fill="#58A6FF">Hardware Description &amp; Verification</text>
+    <text x="350" y="235">Verilog, SystemVerilog, UVM</text>
+
+    <text x="30" y="265" font-weight="bold" fill="#58A6FF">Programming Languages</text>
+    <text x="350" y="265">RISC-V Assembly, C, Python</text>
+
+    <text x="30" y="295" font-weight="bold" fill="#58A6FF">EDA Tools &amp; Synthesis</text>
+    <text x="350" y="295">Xilinx Vivado, Cadence Virtuoso, Genus, Questa</text>
+    
+    <!-- Blinking Cursor -->
+    <rect x="30" y="315" width="10" height="18" fill="#0052FF">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
